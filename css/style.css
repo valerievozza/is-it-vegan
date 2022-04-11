@@ -1,0 +1,101 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Sans-Serif; 
+    height: 150vh;
+    background: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+main {
+    padding: 20px;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 1px 1px 5px gray;
+}
+
+article {
+    padding: 20px;
+    margin: 2px auto;
+    width: 75%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 1px 1px 5px gray;
+}
+
+input {
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button {
+    margin: 20px auto;
+    display: block;
+    background: turquoise;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: rgba(11, 57, 84);
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+h1, h2 {
+    color: rgba(11, 57, 84);
+    font: 2rem;
+}
+
+h2 {
+    margin-bottom: 0;
+    font: 1.8rem;
+}
+
+table {
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: white;
+}
+
+th, td {
+    padding: 5px 10px;
+}
+
+th {
+    font: 1.6rem;
+    font-weight: bold;
+    color: rgba(11, 57, 84);
+}
+
+.non-veg-item {
+    background-color: rgba(236, 78, 32);
+}
+
+.maybe-veg-item {
+    background-color: rgba(238, 198, 67);
+}
