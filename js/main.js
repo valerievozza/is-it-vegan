@@ -5,7 +5,7 @@ function getFetch() {
     const url = `https://world.openfoodfacts.org/api/v0/product/${inputVal}.json`
 
     if(inputVal.length !== 12) {
-        alert('Please ensure that barcode is 12 characters.')
+        alert('Please ensure that barcode is 12 or 13 characters.')
         return
     }
 
