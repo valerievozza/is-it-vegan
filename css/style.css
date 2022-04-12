@@ -39,6 +39,11 @@ article {
     box-shadow: 1px 1px 5px gray;
 }
 
+label {
+    display: inline-block;
+    margin: 10px;
+}
+
 input {
     width: 200px;
     margin-left: 10px;
@@ -98,4 +103,27 @@ th {
 
 .maybe-veg-item {
     background-color: rgba(238, 198, 67);
+}
+
+.hidden{
+	display: none;
+}
+
+@media all and (max-width: 450px) {
+    main {
+        width: 100%;
+        box-shadow: none;
+    }
+    article {
+        width: 100%;
+        box-shadow: none;
+    }
+    label {
+        display: block;
+        margin: 10px auto;
+        width: 85%;
+    }
+    input {
+        width: 85%;
+    }
 }

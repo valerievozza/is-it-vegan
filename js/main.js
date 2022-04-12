@@ -1,11 +1,12 @@
 document.querySelector('button').addEventListener('click', getFetch)
+const article = document.querySelector('#product-data')
 
 function getFetch() {
     let inputVal = document.getElementById("barcode").value
     const url = `https://world.openfoodfacts.org/api/v0/product/${inputVal}.json`
 
     if(inputVal.length !== 12) {
-        alert('Please ensure that barcode is 12 or 13 characters.')
+        alert('Please ensure that UPC is 12 characters.')
         return
     }
 
@@ -37,6 +38,7 @@ class ProductInfo {
     showInfo() {
         document.getElementById('product-img').src = this.image
         document.getElementById('product-name').innerText = this.name
+        article.classList.toggle('hidden')
     }
     
     listIngredients() {
