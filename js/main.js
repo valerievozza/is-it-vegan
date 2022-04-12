@@ -2,14 +2,14 @@ document.querySelector('button').addEventListener('click', getFetch)
 const article = document.querySelector('#product-data')
 
 function getFetch() {
-    let inputVal = document.getElementById("barcode").value
-    const url = `https://world.openfoodfacts.org/api/v0/product/${inputVal}.json`
+//    let inputVal = document.getElementById("barcode").value
+    const url = `https://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=astro&output=xml`
 
-    if(inputVal.length !== 12) {
+/*    if(inputVal.length !== 12) {
         alert('Please ensure that UPC is 12 characters.')
         return
     }
-
+*/
   fetch(url)
         .then(res => res.json()) // parse response as JSON
         .then(data => { // use JSON data
