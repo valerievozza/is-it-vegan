@@ -5,8 +5,6 @@ A web application that tells the user whether a product contains vegan or non-ve
 
 **Link to project:** https://vegana.netlify.app
 
-## Screenshots
-
 ![vegana](https://user-images.githubusercontent.com/101529105/195209367-79494423-c933-4a39-b53e-5376e2f6ca97.png)
 
 ## Tech Stack
