@@ -25,16 +25,16 @@ JavaScript, HTML, CSS
 ## Other Examples of My Work
 
 ### Mailroom
-https://mailroom.cyclic.app
+https://github.com/valerievozza/mailroom
 
 ![mailroom](https://user-images.githubusercontent.com/101529105/195209352-86153487-2d84-4beb-89a7-aa54e10138c1.png)
 
 ### Pocket
-https://pocket.cyclic.app
+https://github.com/valerievozza/pocket
 
 ![pocket](https://user-images.githubusercontent.com/101529105/195209355-0ee83482-9757-4e6e-abcd-f930642ee4fe.png)
 
 ### Pictogram
-https://pictogram.cyclic.app
+https://github.com/valerievozza/pictogram
 
 ![pictogram](https://user-images.githubusercontent.com/101529105/195209354-a648d141-a404-4e91-a2fb-45b047932e56.png)
